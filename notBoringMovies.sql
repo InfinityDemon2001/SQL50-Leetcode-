@@ -1,4 +1,4 @@
-SELECT id, movie, description, rating
+SELECT *
 FROM Cinema
 WHERE description != 'boring' 
 AND id & 1
